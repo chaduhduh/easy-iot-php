@@ -1,0 +1,69 @@
+body {
+    color: rgb(246, 71, 71);
+    background: rgb(246, 71, 71);
+    -webkit-transition: background 500ms ease-in-out;
+    -moz-transition: background 500ms ease-in-out;
+    -o-transition: background 500ms ease-in-out;
+    transition: background 500ms ease-in-out;
+}
+.temperature-widget {
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+}
+.temperature-widget .options {
+    display: block;
+    text-align: center;
+    margin-bottom: 35px;
+    padding-right: 12px;
+}
+.temperature-widget .options a {
+    color: #fff;
+    font-size: 38px;
+    padding: 4px 20px 0;
+    height: 62px;
+    width: 62px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+    position: relative;
+    -webkit-transition: all 225ms ease-in-out;
+    -moz-transition: all 225ms ease-in-out;
+    -o-transition: all 225ms ease-in-out;
+    transition: all 225ms ease-in-out;
+}
+.temperature-widget .options a:first-child{padding-left: 17px;}
+.temperature-widget .options a span {
+    font-size: 19px;
+    position: absolute;
+    top: 12px;
+    right: 9px;
+}
+.temperature-widget .options a.active {
+    background-color: #fff;
+    color: inherit;
+}
+.temperature-widget .weather-panel {
+    text-align: center;
+    color: #fff;
+}
+.temperature-widget .weather-panel .temp {
+    font-size: 40px;
+}
+.temperature-widget .weather-panel .temp sup {
+    position: relative;
+    top: -6px;
+    left: -4px;
+}
+.temperature-widget .weather-panel .location {
+    font-size: 17px;
+    color: rgba(255,255,255,0.7);
+}
