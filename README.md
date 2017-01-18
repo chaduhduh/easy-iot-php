@@ -2,6 +2,8 @@
 Perhaps the easiest IOT example using Flight (php), and Arduino (c). This is designed 
 as a starting point for a prototype or other application. The demo provided is a real 
 time temperature monitor.
+<br /><br />
+![alt tag](public/images/example.jpg)
 
 # Required Materials
 1. Arduino Uno R3
